@@ -17,7 +17,7 @@ class Columns extends React.Component {
     }
 }
 
-class Table extends React.Component {
+class Fragment extends React.Component {
     render() {
         const items = [{
             'id':'a',
@@ -38,10 +38,14 @@ class Table extends React.Component {
         ];
 
         return (
-            <Columns items={items}/>
+            <div>
+                <Columns items={items}/>
+                {/*<li><Link to="/counter">Counter</Link></li>*/}
+                {/*{this.props.children}*/}
+            </div>
         );
     }
 }
 
-export default Table;
+export default Fragment;
 

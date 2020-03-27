@@ -8,9 +8,11 @@ import './index.css';
 //import AutoFocusTextInput from "./ref/autoFocusTextInput";
 //import CustomTextInput from "./ref/customTextInput";
 //import MouseTracker from "./render-props/mouseTracker";
-import NameForm from "./uncontrolled/nameForm";
+//import NameForm from "./uncontrolled/nameForm";
+
+import Example from "./hook/example";
 
 ReactDOM.render(
-    <NameForm/>,
+    <Example/>,
     document.getElementById('root'),
 )
